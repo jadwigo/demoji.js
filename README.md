@@ -22,6 +22,6 @@ You might need to modify the path to `jquery.demoji.js` according to your own we
 
 ## Demoji.js license
 
-*  Applies to the Javascript, JSON, PHP, CSS, HTML files, and everything else not covered under the artwork license above.
+*  Applies to the Javascript, JSON, PHP, CSS, HTML files, and everything else in this repository.
 *  License: MIT
 *  Complete Legal Terms: http://opensource.org/licenses/MIT

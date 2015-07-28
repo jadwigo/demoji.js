@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 
 	// and make images from the emoji shortcodes in your html
 	// but only convert elements that have the class '.hasemoji'
-	// you can also other classes or selectors
+	// you can also add other classes or selectors
 	$('.hasemoji', 'body').each(function(e) {
 		$(this).remoji();
 		return false;

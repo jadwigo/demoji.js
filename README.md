@@ -5,6 +5,8 @@ Remove emoji from input forms to prevent database problems.
 This script will rewrite the input of all input[type=text] and textarea fields when a form is submitted.
 If any emojis are found in the submitted value, this script will replace it for a shortcode.
 
+The script uses the emoji library from [Emojione.com](http://emojione.com/) to convert the emoji.
+
 ## why is it needed
 In some older version of [phpBB](http://www.phpbb.com/) adding Emoji from a mobile device will result in a database error.
 

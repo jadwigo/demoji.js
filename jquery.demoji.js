@@ -18,10 +18,26 @@
 			});
 		});
 	};
+	$.fn.remoji = function() {
+		return this.each(function() {
+		     var input = $(this).html();
+		     var output = emojione.toImage(input);
+		     $(this).html(output);
+		});
+	};
 }(jQuery));
 
 jQuery(document).ready(function($) {
+	// convert emoji to shortcodes
 	$('form').submit (function(e) {
 		$(this).demoji();
+	});
+
+	// and make images from the emoji shortcodes in your html
+	// but only convert elements that have the class '.hasemoji'
+	// you can also other classes or selectors
+	$('.hasemoji', 'body').each(function(e) {
+		$(this).remoji();
+		return false;
 	});
 });

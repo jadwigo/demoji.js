@@ -27,3 +27,4 @@ You might need to modify the path to `jquery.demoji.js` according to your own we
 *  Applies to the Javascript, JSON, PHP, CSS, HTML files, and everything else in this repository.
 *  License: MIT
 *  Complete Legal Terms: http://opensource.org/licenses/MIT
+*  Emoji provided free by [Emoji One](http://emojione.com/) 

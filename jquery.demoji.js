@@ -7,6 +7,7 @@
   <script src="//cdn.jsdelivr.net/emojione/1.5.0/lib/js/emojione.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/emojione/1.5.0/assets/css/emojione.min.css"/>
  *
+ * Emoji provided free by http://emojione.com/ 
  */
 (function($) {
 	$.fn.demoji = function() {

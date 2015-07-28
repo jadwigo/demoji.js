@@ -38,6 +38,5 @@ jQuery(document).ready(function($) {
 	// you can also add other classes or selectors
 	$('.hasemoji', 'body').each(function(e) {
 		$(this).remoji();
-		return false;
 	});
 });
